@@ -166,7 +166,7 @@ fun DetalleScreen(nombre: String, telefono: String, fotoUrl: String, onBack: () 
                 }
             )
         }
-    ) { padding: PaddingValues -> // <--- ESTA ERA LA LÍNEA 129 QUE DABA EL ERROR
+    ) { padding: PaddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
