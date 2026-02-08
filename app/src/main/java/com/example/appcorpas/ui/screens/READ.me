@@ -1,0 +1,17 @@
+
+**Autores:** Daniel Corpas y Jorge Trives
+
+
+Características Técnicas 
+* **Arquitectura:** MVVM + Clean Architecture.
+* **Inyección de Dependencias:** Hilt.
+* **Base de Datos:** Room (funciona Offline).
+* **Conexión API:** Retrofit (descarga usuarios reales).
+* **Extras:**
+  * Detector de conexión a internet (Aviso rojo).
+  * Llamadas y compartir contacto (Intents).
+  * Documentación con KDoc.
+Cómo probarla
+1. Al abrir la app, entra con cualquier usuario/contraseña (Login simulado).
+2. Verás la lista de contactos descargados de Internet.
+3. **Prueba Estrella:** Quita el internet del móvil y verás el aviso rojo, pero los datos seguirán ahí.
